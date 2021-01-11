@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Servis financiranja lokalnih projekata</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="vendor/jquery/carousel.js" rel="stylesheet">
+
+</head>
+
+<body style="overflow: hidden;">
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="display-4 text-center">FiLoP</div>
+      <div class="font-weight-light text-muted text-center">financiranje lokalnih projekata</div>
+      <div class="list-group list-group-flush mt-4">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Prijavljeni projekti</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Poredak prema uplatama</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Prijavi svoj projekt</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Pravila financiranja</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Naši donatori</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Vizije i ciljevi servisa</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-denim" id="menu-toggle">Istraži više</button>
+        <div class="topnav-centered">
+          <p class="h1">Tomislavgrad</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Početna<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prijava</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tomislavgrad
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Grude</a>
+                <a class="dropdown-item" href="#">Čapljina</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Želim FiLoP u svojoj općini</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row mt-2 ml-2">
+          <div class="shadow col-md-4 text-center">
+            <table class="table-sm table-borderless p-0">
+              <tbody>
+                <tr>
+                  <td style="width: 10%" class="text-left font-weight-light text-muted"><sup class="text-blue">osnovica</sup></td>
+                  <td class="text-center text-denim h5 cursor-pointer" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Osnovica" data-content="Sredstva prikupljena od općine">29 000</td>
+                </tr>
+                <tr>
+                  <td class="text-left font-weight-light text-muted"><sup class="text-blue">bazno</sup></td>
+                  <td class="text-center text-denim h5 cursor-pointer" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Bazno" data-content="Sredstva prikupljena od tvrtki i pojedinaca koji imaju ugovor s općinom">11 000</td>
+                </tr>
+                <tr>
+                  <td class="text-left font-weight-light text-muted"><sup class="text-blue">korisničko</sup></td>
+                  <td class="text-center text-denim h5 cursor-pointer" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Korisničko" data-content="Sredstva prikupljena glasovanjem korisnika">1 000</td>
+                </tr>
+                <tr>
+                  <td class="text-left font-weight-light text-muted"><sup></sup></td>
+                  <td class="text-center text-green h3 font-weight-bold" colspan="2">41 000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-8 text-center" >
+            <div id="carouselExampleSlidesOnly" style="height: 100%" class="carousel slide shadow" data-ride="carousel">
+              <div class="h3 font-weight-bold mb-2 text-denim">Posljednje uplate</div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="h4 font-weight-bold text-green text-center mb-0">50 KM</p>
+                  <p class="mb-0">Mate Jović | Projekt nabave aparata za mlijeko</p>
+                  <p class="text-muted font-italic mb-0">prije 2 dana</p>
+                </div>
+                <div class="carousel-item">
+                  <p class="h4 font-weight-bold text-green text-center mb-0">30 KM</p>
+                  <p class="mb-0">Mate Jović | Projekt nabave aparata za mlijeko</p>
+                  <p class="text-muted font-italic mb-0">prije 1 dan</p>
+                </div>
+                <div class="carousel-item">
+                  <p class="h4 font-weight-bold text-green text-center mb-0">100 KM</p>
+                  <p class="mb-0">Mate Jović | Projekt nabave aparata za mlijeko</p>
+                  <p class="text-muted font-italic mb-0">prije 1 dan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-4" style="overflow: scroll; height: 500px;">
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-2" style="max-width:100%; height: fit-content;">
+          <div class="row no-gutters">
+            <div class="col-md-2">
+              <img src="assets/kartografska_BP.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-title h5 m-0">Projekt nabave aparata za mlijeko</div>
+                    <div class="text-muted mt-2">Viviamo trapassare benignita ora dinanzi dallo i sempre. A le transitorie prieghi alcun non, beati potremmo non di vostro come..</div>
+                  </div>
+                  <div class="col-md-6 text-center p-0">
+                    <span><a href="#" class="btn btn-denim w-49">O projektu</a></span>
+                    <span><a href="#" class="btn btn-red w-49">Podrži projekt</a></span>
+                    <div class="row mt-2">
+                      <div class="col-md-6">
+                        <div class="h5 text-red mb-0" style="text-align: left;">5 690</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h5 text-warning mb-0" style="text-align: right;">10 000</div>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar bg-green" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- /#page-content-wrapper -->
+  </div>
+  
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/carousel.js"></script>
+  <script src="vendor/jquery/popover.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+    </script>
+  
+
+</body>
+
+</html>
